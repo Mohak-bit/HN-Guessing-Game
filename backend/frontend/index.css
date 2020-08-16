@@ -1,0 +1,122 @@
+body{
+    background-color: white;
+    font-family: sans-serif;
+}
+
+
+/* #idname{
+    Background-color : hexadecimal value or name
+    } */
+
+#HNtitle{
+    color: black;
+    text-align: center;
+    font-size: 60px;
+    font-style: oblique;
+}
+
+#title{
+    background-color: #f6f6ef;
+    background-size: contain;
+    box-sizing: border-box;
+    font-size: 48px;
+    color: black;
+    text-align: start;
+    border-spacing: 2px;
+    border-color: grey;
+    border-radius: 7px;
+    padding: 29px 29px 46px 40px;
+    margin-bottom: 5px;
+    margin-right: 9px;
+}
+
+#time{
+    position: absolute;
+    right: 5px;
+    background-color: #f6f6ef;
+    color: black;
+    font-size: 32px;
+    margin-top: 0px;
+    border-radius: 7px;
+    padding: 7px;
+    margin: 3px 12px 0px 0px;
+    font-style: oblique;
+}
+
+
+#enteredRank{
+    margin-top: 55px;
+    margin-right: auto;
+    box-sizing: border-box;
+    border-radius: 7px;
+    padding: 15px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#rank{
+    font-size: 24px;
+}
+
+#submit{
+    margin: auto;
+    display: block;
+    padding: 12px 28px;
+    font-size: 20px;
+    border-radius: 8px;
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+#submit:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#livesLeft{
+    color: black;
+    position: absolute;
+    bottom: -14px;
+    right: 23px;
+    font-size: 25px;
+}
+
+
+#moreLess{
+    position: absolute;
+    bottom: 14px;
+    right: 23px;
+    font-size: 25px;
+}
+
+#result{
+    text-align: center;
+    font-size: 30px;
+}
+
+#next{
+    margin: auto;
+    display: block;
+    padding: 12px 28px;
+    font-size: 20px;
+    border-radius: 8px;
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+#next:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/* #ff6600 */
