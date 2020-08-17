@@ -19,7 +19,6 @@ def createTable(name):
         conn.commit()
         return True
     except:
-        print('error')
         return False
 
 def write(name,data):
