@@ -3,6 +3,7 @@ import sqlite3
 import time
 import datetime
 
+
 def connect():
     try:
         conn = sqlite3.connect("D:/HN Project/HN-Guessing-Game/backend/HNPosts.db")
@@ -11,7 +12,7 @@ def connect():
         print("ERROR CONNECTING TO DATABASES")
 
 def createTable(name):
-    #The structure of the table is Rank, Title, Time
+    # The structure of the table is Rank, Title, Time
     try:
         conn = connect()
         c = conn.cursor()
@@ -46,16 +47,3 @@ def tableExists(name):
     c.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='scrape_%s';" % (name))
     x = c.fetchone()
     return x != None
-        
-
-
-# now = datetime.datetime.now()
-# scrape_time = now.strftime("%Y_%m_%d_%H")
-
-
-#createTable(scrape_time)
-#write(scrape_time,final)
-#read(scrape_time,7)
-#class and objects
-#unixtime  
-#calculate the current time and if we have a table for that...no issues.... if we don't have a table...we scrape

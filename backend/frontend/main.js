@@ -1,6 +1,3 @@
-// $('#wrapper').hide()
-
-
 let actualRank
 
 let getNewRound = async() => {
