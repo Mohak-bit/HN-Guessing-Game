@@ -27,7 +27,7 @@ def write(name,data):
     try:
         conn = connect()
         c = conn.cursor()
-        c.executemany('INSERT INTO scrape_%s (rank, title, time) VALUES(?,?,?);' % (name), data)
+        c.executemany("INSERT INTO scrape_%s (rank, title, time) VALUES(?,?,?);" % (name), data)
         conn.commit()
         return True
     except:
