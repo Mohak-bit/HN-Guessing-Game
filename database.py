@@ -6,7 +6,7 @@ import datetime
 
 def connect():
     try:
-        conn = sqlite3.connect("D:/HN Project/HN-Guessing-Game/backend/HNPosts.db")
+        conn = sqlite3.connect("./HNPosts.db")
         return conn
     except:
         print("ERROR CONNECTING TO DATABASES")
