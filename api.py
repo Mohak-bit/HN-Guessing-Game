@@ -29,5 +29,6 @@ def fetchRandom():
     data = database.read(scrape_time,rank)
     return {"rank": data[0], "title": data[1], "time": data[2]}
 
-if __name__ == "__main__":
-    app.run(port=8080, debug=True)
+# if __name__ == "__main__":
+#     app.run(port=8080, debug=True)
+#     app.run(port=443, debug=False)
