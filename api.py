@@ -10,6 +10,10 @@ import datetime
 app = Flask(__name__)
 CORS(app)
 
+@app.route("/")
+def root():
+    return index('index.html')
+
 @app.route("/<path>")
 def index(path):
     return send_from_directory('frontend', path)
