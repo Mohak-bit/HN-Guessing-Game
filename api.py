@@ -30,6 +30,6 @@ def fetchRandom():
     return {"rank": data[0], "title": data[1], "time": data[2]}
 
 if __name__ == "__main__":
-    app.run()
     #app.run(port=8080, debug=True)
+    app.run()
     #app.run(port=443, debug=False)
