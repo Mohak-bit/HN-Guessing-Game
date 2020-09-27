@@ -5,7 +5,7 @@ let getNewRound = async() => {
     $('#resultWrapper').hide()
     $('#retry').hide()
     $('#moreLess').hide()
-    let res = await fetch('http://localhost:8080/api/fetchRandom')
+    let res = await fetch('https://hn-guessing-game.herokuapp.com/api/fetchRandom')
     let data = await res.json()
     actualRank = data.rank
     $('#title').text(data.title)
